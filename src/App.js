@@ -1,21 +1,40 @@
 import React from "react";
-import Header from "./components/Header";
-import LeftMidPart from "./components/LeftMidPart";
-import Footer from "./components/Footer";
-import RightMidPart from "./components/RightMidPart";
+import Header from "./component/Header";
+import LeftMidPart from "./component/LeftMidPart";
+import RightMidPart from "./component/RightMidPart";
 function App() {
+  const topStyle = {
+    backgroundColor: "#FDE3D9",
+    padding: "0",
+    margin: "0"
+  };
   return (
-   <div className="main-page">
-    <Header />
-   
-    <Footer />
-    <div style="width: 50%; float:left">
-      <LeftMidPart />
+    <div className="main-page" style={topStyle}>
+      <Header />
+      <div
+        style={{
+          width: "50%",
+          float: "left",
+          height: "100vh",
+          backgroundColor: "#FDE3D9"
+        }}
+      >
+        <LeftMidPart />
       </div>
-    <div style="width: 50%; float:right">
-      <RightMidPart />
+      <div
+        className="pad"
+        style={{
+          width: "50%",
+          float: "right",
+          height: "100vh",
+          backgroundImage: "url('../component/dog.png')",
+          textAlign: "left",
+          backgroundColor: "grey"
+        }}
+      >
+        <RightMidPart />
+      </div>
     </div>
-   </div>
   );
 }
 

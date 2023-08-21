@@ -1,5 +1,5 @@
 import React from "react";
-import cat from "../component/cat.png";
+import cat from "../component/catnew.png";
 const Header = () => {
   const btn = {
     cursor: "pointer",

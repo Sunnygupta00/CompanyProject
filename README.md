@@ -1,8 +1,6 @@
 # Getting Started with Create React App
 
-Live demo : https://c2n8lj.csb.app/
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live demo : https://c2n8lj.csb.app/]
 
 ## Available Scripts
 

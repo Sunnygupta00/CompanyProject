@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bgimg {
+  /* background-image: url(dog.png); */
+  /* background-repeat: no-repeat;
+  background-size: auto; */
+}
+.grey {
+  background-color: grey;
+  width: 100%;
+  float: "right";
+  height: 100vh;
+}
+.blue {
+  background-color: blue;
+  width: 100%;
+  float: "right";
+  height: 100vh;
+}

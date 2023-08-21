@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-[Live demo : https://c2n8lj.csb.app/]
+# [Live demo : https://c2n8lj.csb.app/]
 
 ## Available Scripts
 
